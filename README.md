@@ -1,77 +1,46 @@
-Guess It Game
-Guess It is an interactive web-based game where the player tries to guess a random number within a given range. The game gives the user a set number of chances to guess correctly. It provides feedback after each guess to help the player reach the right answer.
+# Guess It Game
 
-Features
-A simple number guessing game with a set number of chances.
+**Guess It** is an interactive web-based game where the player tries to guess a random number within a given range. The game gives the user a set number of chances to guess correctly. It provides feedback after each guess to help the player reach the right answer.
 
-After each guess, the game gives feedback whether the guess was too high, too low, or correct.
+## Features
 
-Responsive design using HTML, CSS, and JavaScript.
+- A simple number guessing game with a set number of chances.
+- After each guess, the game gives feedback whether the guess was too high, too low, or correct.
+- Responsive design using HTML, CSS, and JavaScript.
+- Interactive user interface with real-time input and output.
 
-Interactive user interface with real-time input and output.
+## Technologies Used
 
-Technologies Used
-HTML - For structuring the game interface.
+- **HTML** - For structuring the game interface.
+- **CSS** - For styling the game elements and making it responsive.
+- **JavaScript** - For game logic and interaction (number generation, guess checking, and feedback).
 
-CSS - For styling the game elements and making it responsive.
+## How to Play
 
-JavaScript - For game logic and interaction (number generation, guess checking, and feedback).
+1. Open the game in your browser.
+2. A random number between a specified range will be generated.
+3. You will have a limited number of chances to guess correctly.
+4. After each guess, feedback will be given: whether your guess was too high, too low, or correct.
+5. Keep guessing until you either win or run out of chances.
 
-How to Play
-Open the game in your browser.
+## How to Play (Detailed)
 
-A random number between a specified range will be generated.
+1. Once you start the game, a prompt will show asking for your first guess.
+2. Enter a number within the given range and press **Submit**.
+3. The game will tell you if the guess is too high or too low.
+4. If you guess correctly, you win! If not, you will have a limited number of remaining chances.
+5. After the game ends, you can restart and play again.
 
-You will have a limited number of chances to guess the correct number.
+## Example of a Round
 
-After each guess, feedback will be given: whether your guess was too high, too low, or correct.
+1. The number range is from **1 to 100**.
+2. The user has **10 chances** to guess the correct number.
+3. The user guesses: `50` — The game says **"Your number is high"**.
+4. The user guesses: `25` — The game says **"Your number is low"**.
+5. The user guesses: `37` — The game says **"Correct!"**.
 
-Keep guessing until you either win or run out of chances.
+## How to Run the Game
 
-How to Play (Detailed)
-Once you start the game, a prompt will show asking for your first guess.
-
-Enter a number within the given range and press Submit.
-
-The game will tell you if the guess is too high or too low.
-
-If you guess correctly, you win! If not, you will have a limited number of remaining chances.
-
-After the game ends, you can restart and play again.
-
-Example of a Round
-The number range is from 1 to 100.
-
-The user has 10 chances to guess the correct number.
-
-The user guesses: 50 — The game says "Too high".
-
-The user guesses: 25 — The game says "Too low".
-
-The user guesses: 37 — The game says "Correct!".
-
-How to Run the Game
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/guess-it-game.git
-Open the index.html file in your browser:
-
-Double-click on the index.html file to open it in your default web browser.
-
-Game Logic (JavaScript)
-A random number is generated using Math.random().
-
-The user inputs a guess, and the guess is compared to the generated number.
-
-The game gives feedback on whether the guess is too high, too low, or correct.
-
-The number of remaining chances is updated after each guess.
-
-License
-This game is open-source and available under the MIT License.
-
-Contributing
-Feel free to fork the repository, make changes, and submit pull requests. Contributions to improve the game’s logic or UI are welcome!
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/guess-it-game.git
